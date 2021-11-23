@@ -1,1 +1,493 @@
+> show dbs
+admin   0.000GB
+config  0.000GB
+local   0.000GB
+> use test
+switched to db test
+> show collections
+>
+> show dbs
+admin   0.000GB
+config  0.000GB
+local   0.000GB
+> use test1
+switched to db test1
+> show collections
+> show dbs
+admin   0.000GB
+config  0.000GB
+> show dbs
+admin   0.000GB
+config  0.000GB
+test    0.000GB
+> use test
+switched to db test
+> show collections
+users
+> db.users.find().pretty()
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96b8"),
+        "id" : 1,
+        "first_name" : "Robbie",
+        "last_name" : "Ebbitt",
+        "email" : "rebbitt0@comcast.net",
+        "gender" : "Non-binary",
+        "age" : 15
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96b9"),
+        "id" : 2,
+        "first_name" : "Hollie",
+        "last_name" : "MacIan",
+        "email" : "hmacian1@epa.gov",
+        "gender" : "Non-binary",
+        "age" : 28
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96ba"),
+        "id" : 3,
+        "first_name" : "Fanechka",
+        "last_name" : "Gloucester",
+        "email" : "fgloucester2@yelp.com",
+        "gender" : "Female",
+        "age" : 8
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96bb"),
+        "id" : 4,
+        "first_name" : "Manya",
+        "last_name" : "Jori",
+        "email" : "mjori3@rediff.com",
+        "gender" : "Agender",
+        "age" : 36
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96bc"),
+        "id" : 5,
+        "first_name" : "Desmond",
+        "last_name" : "MacGillicuddy",
+        "email" : "dmacgillicuddy4@mlb.com",
+        "gender" : "Genderfluid",
+        "age" : 37
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96bd"),
+        "id" : 6,
+        "first_name" : "Raquel",
+        "last_name" : "Burnall",
+        "email" : "rburnall5@hostgator.com",
+        "gender" : "Female",
+        "age" : 31
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96be"),
+        "id" : 7,
+        "first_name" : "Teressa",
+        "last_name" : "Berrey",
+        "email" : "tberrey6@infoseek.co.jp",
+        "gender" : "Genderqueer",
+        "age" : 42
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96bf"),
+        "id" : 8,
+        "first_name" : "Glyn",
+        "last_name" : "Barok",
+        "email" : "gbarok7@photobucket.com",
+        "gender" : "Bigender",
+        "age" : 16
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96c0"),
+        "id" : 9,
+        "first_name" : "Lion",
+        "last_name" : "Stark",
+        "email" : "lstark8@networkadvertising.org",
+        "gender" : "Female",
+        "age" : 56
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96c1"),
+        "id" : 10,
+        "first_name" : "Wildon",
+        "last_name" : "Basketter",
+        "email" : "wbasketter9@canalblog.com",
+        "gender" : "Polygender",
+        "age" : 23
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96c2"),
+        "id" : 11,
+        "first_name" : "Ambur",
+        "last_name" : "Sumner",
+        "email" : "asumnera@ocn.ne.jp",
+        "gender" : "Non-binary",
+        "age" : 33
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96c3"),
+        "id" : 12,
+        "first_name" : "Elliot",
+        "last_name" : "Vickars",
+        "email" : "evickarsb@google.com.hk",
+        "gender" : "Bigender",
+        "age" : 58
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96c4"),
+        "id" : 13,
+        "first_name" : "Latrina",
+        "last_name" : "Raden",
+        "email" : "lradenc@sitemeter.com",
+        "gender" : "Agender",
+        "age" : 24
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96c5"),
+        "id" : 14,
+        "first_name" : "Tadeo",
+        "last_name" : "Elvy",
+        "email" : "telvyd@plala.or.jp",
+        "gender" : "Non-binary",
+        "age" : 43
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96c6"),
+        "id" : 15,
+        "first_name" : "Hestia",
+        "last_name" : "Peyton",
+        "email" : "hpeytone@live.com",
+        "gender" : "Female",
+        "age" : 32
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96c7"),
+        "id" : 16,
+        "first_name" : "Kat",
+        "last_name" : "Glayzer",
+        "email" : "kglayzerf@addtoany.com",
+        "gender" : "Genderqueer",
+        "age" : 7
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96c8"),
+        "id" : 17,
+        "first_name" : "Bernie",
+        "last_name" : "Franses",
+        "email" : "bfransesg@ft.com",
+        "gender" : "Female",
+        "age" : 13
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96c9"),
+        "id" : 18,
+        "first_name" : "Fabiano",
+        "last_name" : "Osgardby",
+        "email" : "fosgardbyh@slashdot.org",
+        "gender" : "Female",
+        "age" : 13
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96ca"),
+        "id" : 19,
+        "first_name" : "Dorry",
+        "last_name" : "Hare",
+        "email" : "dharei@deliciousdays.com",
+        "gender" : "Polygender",
+        "age" : 2
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96cb"),
+        "id" : 20,
+        "first_name" : "Kent",
+        "last_name" : "Ravenscraft",
+        "email" : "kravenscraftj@cornell.edu",
+        "gender" : "Genderfluid",
+        "age" : 22
+}
+Type "it" for more
+> db.users.find({"age":22}).pretty()
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96cb"),
+        "id" : 20,
+        "first_name" : "Kent",
+        "last_name" : "Ravenscraft",
+        "email" : "kravenscraftj@cornell.edu",
+        "gender" : "Genderfluid",
+        "age" : 22
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96ed"),
+        "id" : 54,
+        "first_name" : "Dedra",
+        "last_name" : "Anthill",
+        "email" : "danthill1h@mail.ru",
+        "gender" : "Genderfluid",
+        "age" : 22
+}
+> db.users.find({age :{$gt :55}}).pretty()
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96c0"),
+        "id" : 9,
+        "first_name" : "Lion",
+        "last_name" : "Stark",
+        "email" : "lstark8@networkadvertising.org",
+        "gender" : "Female",
+        "age" : 56
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96c3"),
+        "id" : 12,
+        "first_name" : "Elliot",
+        "last_name" : "Vickars",
+        "email" : "evickarsb@google.com.hk",
+        "gender" : "Bigender",
+        "age" : 58
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96dc"),
+        "id" : 37,
+        "first_name" : "Cal",
+        "last_name" : "Cantu",
+        "email" : "ccantu10@wp.com",
+        "gender" : "Genderqueer",
+        "age" : 58
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96ea"),
+        "id" : 51,
+        "first_name" : "Tracy",
+        "last_name" : "Aleavy",
+        "email" : "taleavy1e@about.me",
+        "gender" : "Male",
+        "age" : 59
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96ec"),
+        "id" : 53,
+        "first_name" : "Pincas",
+        "last_name" : "Swannack",
+        "email" : "pswannack1g@bizjournals.com",
+        "gender" : "Non-binary",
+        "age" : 58
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96f0"),
+        "id" : 57,
+        "first_name" : "Tess",
+        "last_name" : "Avramovic",
+        "email" : "tavramovic1k@google.com",
+        "gender" : "Bigender",
+        "age" : 59
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96f2"),
+        "id" : 59,
+        "first_name" : "Franny",
+        "last_name" : "Tabert",
+        "email" : "ftabert1m@com.com",
+        "gender" : "Female",
+        "age" : 57
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96f5"),
+        "id" : 62,
+        "first_name" : "Gussie",
+        "last_name" : "Haye",
+        "email" : "ghaye1p@eepurl.com",
+        "gender" : "Polygender",
+        "age" : 56
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96fb"),
+        "id" : 68,
+        "first_name" : "Bambi",
+        "last_name" : "Wraggs",
+        "email" : "bwraggs1v@nifty.com",
+        "gender" : "Genderqueer",
+        "age" : 57
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96ff"),
+        "id" : 72,
+        "first_name" : "Glenden",
+        "last_name" : "Janicek",
+        "email" : "gjanicek1z@europa.eu",
+        "gender" : "Polygender",
+        "age" : 59
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf9701"),
+        "id" : 74,
+        "first_name" : "Roseline",
+        "last_name" : "Illiston",
+        "email" : "rilliston21@theguardian.com",
+        "gender" : "Genderfluid",
+        "age" : 59
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf9704"),
+        "id" : 77,
+        "first_name" : "Gearalt",
+        "last_name" : "Menzies",
+        "email" : "gmenzies24@rakuten.co.jp",
+        "gender" : "Bigender",
+        "age" : 57
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf970c"),
+        "id" : 85,
+        "first_name" : "Joachim",
+        "last_name" : "Ossulton",
+        "email" : "jossulton2c@princeton.edu",
+        "gender" : "Male",
+        "age" : 58
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf9715"),
+        "id" : 94,
+        "first_name" : "Heda",
+        "last_name" : "Lax",
+        "email" : "hlax2l@wsj.com",
+        "gender" : "Genderfluid",
+        "age" : 59
+}
+> db.users.find({age :{$lt :4}}).pretty()
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96ca"),
+        "id" : 19,
+        "first_name" : "Dorry",
+        "last_name" : "Hare",
+        "email" : "dharei@deliciousdays.com",
+        "gender" : "Polygender",
+        "age" : 2
+}
+> db.users.find({age :{$lte :4}}).pretty()
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96ca"),
+        "id" : 19,
+        "first_name" : "Dorry",
+        "last_name" : "Hare",
+        "email" : "dharei@deliciousdays.com",
+        "gender" : "Polygender",
+        "age" : 2
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96ce"),
+        "id" : 23,
+        "first_name" : "Silvain",
+        "last_name" : "Bakes",
+        "email" : "sbakesm@telegraph.co.uk",
+        "gender" : "Genderqueer",
+        "age" : 4
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96e1"),
+        "id" : 42,
+        "first_name" : "Gracia",
+        "last_name" : "Itzkovitch",
+        "email" : "gitzkovitch15@zimbio.com",
+        "gender" : "Female",
+        "age" : 4
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96e5"),
+        "id" : 46,
+        "first_name" : "Ettie",
+        "last_name" : "Yosselevitch",
+        "email" : "eyosselevitch19@webeden.co.uk",
+        "gender" : "Genderfluid",
+        "age" : 4
+}
+> db.users.find({age :{$lte :4}},{).pretty()
+...
+... ^C
+
+> db.users.find({age :{$lte :4}},{"first_name":1,_id:0}).pretty()
+{ "first_name" : "Dorry" }
+{ "first_name" : "Silvain" }
+{ "first_name" : "Gracia" }
+{ "first_name" : "Ettie" }
+> db.users.find({age :{$lte :4}},{"first_name":1,_id:0}).pretty()
+{ "first_name" : "Dorry" }
+{ "first_name" : "Silvain" }
+{ "first_name" : "Gracia" }
+{ "first_name" : "Ettie" }
+> db.users.find({$and :[{age :{$gt:57}},{gender:"Male"}]}).pretty()
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96ea"),
+        "id" : 51,
+        "first_name" : "Tracy",
+        "last_name" : "Aleavy",
+        "email" : "taleavy1e@about.me",
+        "gender" : "Male",
+        "age" : 59
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf970c"),
+        "id" : 85,
+        "first_name" : "Joachim",
+        "last_name" : "Ossulton",
+        "email" : "jossulton2c@princeton.edu",
+        "gender" : "Male",
+        "age" : 58
+}
+> db.users.find({age :{$in :[2,5,10]}}).sort("first_name":1).limit(2).pretty()
+uncaught exception: SyntaxError: missing ) after argument list :
+@(shell):1:55
+> db.users.find({age :{$in :[2,5,10]}}).sort({"first_name":1}).limit(2).pretty()
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96ca"),
+        "id" : 19,
+        "first_name" : "Dorry",
+        "last_name" : "Hare",
+        "email" : "dharei@deliciousdays.com",
+        "gender" : "Polygender",
+        "age" : 2
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96e7"),
+        "id" : 48,
+        "first_name" : "Josey",
+        "last_name" : "Frowd",
+        "email" : "jfrowd1b@baidu.com",
+        "gender" : "Polygender",
+        "age" : 10
+}
+> db.users.find({age :{$in :[2,5,10]}}).sort({"first_name":-1}).limit(2).pretty()
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96e4"),
+        "id" : 45,
+        "first_name" : "Marlo",
+        "last_name" : "Roumier",
+        "email" : "mroumier18@nasa.gov",
+        "gender" : "Bigender",
+        "age" : 10
+}
+{
+        "_id" : ObjectId("619cd9fe3f76e32022cf96e7"),
+        "id" : 48,
+        "first_name" : "Josey",
+        "last_name" : "Frowd",
+        "email" : "jfrowd1b@baidu.com",
+        "gender" : "Polygender",
+        "age" : 10
+}
+> show dbs
+admin   0.000GB
+config  0.000GB
+test    0.000GB
+> use test1
+switched to db test1
+> db.data.insert({"first_name":"mahesh"})
+WriteResult({ "nInserted" : 1 })
+> show collections
+data
+> show dbs
+admin   0.000GB
+config  0.000GB
+test    0.000GB
+test1   0.000GB
+>
+
 
